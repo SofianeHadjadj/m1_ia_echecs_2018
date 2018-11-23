@@ -1,0 +1,87 @@
+html, body {
+    
+}
+body {
+    font-family: Roboto;
+    margin-top: 0px;
+    margin-left: -5px
+}
+
+table, tr, td {
+    border-collapse: collapse;
+}
+
+#table
+{    
+    width:600px;
+    height:620px;
+    border:solid 1px;
+}
+
+#table>table
+{
+    width:100%;
+    height:100%;
+}
+
+.tableCell
+{
+    border:solid 0px;
+    height:60px;
+    overflow:hidden;
+}
+.dark-cell
+{
+    background-color: #8A481E;
+}
+.light-cell
+{
+    background-color: #F0C080;
+}
+.tableCell img
+{
+    position: absolute;
+
+}
+.tableBorder
+{
+    border-right:solid 1px black;
+    background-color:#703113;
+    color: white;
+    height:72px;
+    width:24px;
+    overflow:hidden;
+    text-align:center;
+}
+.tableBorderTop
+{
+    border-bottom:solid 1px black;
+    background-color:#703113;
+    color: white;
+    height:14px !important;
+    overflow:hidden;
+    text-align:center;
+}
+.tableCorner
+{
+    border:solid 0px;
+    background-color:#703113;
+    color: white;
+}
+.selectedColl
+{
+    background-color: rgba(121, 85, 72, 0.7);
+}
+.possibilities
+{
+    background-color: #E65E13;
+    border:solid 1px rgba(121, 85, 72, 1);
+}
+.cntrImp{
+    margin-left: 9px;
+    margin-top: -11px !important;
+}
+.cntrPion{
+    margin-left: 5px;
+    margin-top: -15px !important;
+}
